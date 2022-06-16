@@ -1,8 +1,8 @@
 {
   "name": "J-Tools",
   "version": "0.1.0",
-  "private": true,
-  "hamepage": "https://github.com/JayChang4w/j-tools",
+  "private": false,
+  "hamepage": "https://github.com/jaychang4w/j-tools",
   "browserslist": [
     ">0.2%",
     "not dead",
