@@ -1,5 +1,5 @@
 {
-  "name": "J-Tools",
+  "title": "J-Tools",
   "version": "0.1.0",
   "private": false,
   "homepage": "https://jaychang4w.github.io/j-tools",
@@ -30,6 +30,5 @@
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "title": "J-Tools"
+  }
 }

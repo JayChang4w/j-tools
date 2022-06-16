@@ -1,6 +1,7 @@
 import "antd/dist/antd.css";
 import "./index.css";
 import "jszip";
+import logo from "./assets/images/logo_transparent.png";
 import * as XLSX from "xlsx";
 import {
   AppstoreOutlined,
@@ -165,7 +166,7 @@ const App = () => {
   return (
       <Layout>
         <Header className="header">
-          <div className="logo" />
+          <div className="logo"><img alt="logo" src={logo} /></div>
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} items={menuItems} />
         </Header>
         <Content
